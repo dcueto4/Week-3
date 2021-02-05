@@ -22,20 +22,9 @@ public class Main {
 	// Added 10 to ages[0]	
 	
 	//c.	Use a loop to iterate through the array and calculate the average age. Print the result to the console.
-		int average = sum / array.length;
+		int average = sum / ages.length;
 		System.out.println(average);
-		
-		
-		
-}
-	
-	public static int calculateAverage(ages[] array) {
-		int sum = 0;
-		for (int number : array) {
-			sum =+ number;
-		}
-		return sum / array.length;
-	}	
+
 		
 		
 	}
